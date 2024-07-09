@@ -1,0 +1,38 @@
+1/0 = infinity 
+Math.sqrt(-1.0) = NaN
+
+Short: value of integers between -2^15 to 2^15 -1
+long: between -2^63 and 2^63 - 1
+float: real numbers, same as double. very precise.  
+
+int t = a; t is a temporary variable holding on to a's value. 
+a = b;  
+b = t; 
+
+Truth Table: 
+a    b     !a    !b    !a && b    a && !b   (!a && b) || (a && !b)    // only true if one of them is true 
+T    T      F     F       F          F              F
+T    F      F     T       F          T              T
+F    T      T     F       T          F              T
+F    F      T     T       F          F              F
+
+Avoid using == with doubles bc they r approximations. 
+
+Math Class: 
+double abs(double a) --> absolute value 
+double max/min(double a, double b) --> max or min value 
+double sin(double theta)--> sin of theta
+double cos (double theta)--> cos of theta
+double tan(double theta)--> tan of theta
+Math.sqrt(var or #) --> finds square root of #endregion
+double exp(double a) exponential (ea)
+double log(double a) natural log (log e a, or ln a)
+double pow(double a, double b) raise a to the bth power (ab)
+long round(double a) round to the nearest integer
+double random() random number in [0. 1)
+double sqrt(double a) square root of a
+inverse functions also available:
+asin(), acos(), and atan()
+Degrees in radians. Use toDegrees() and toRadians()) to convert.
+
+

@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/harshmonga/Downloads/algs4.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
